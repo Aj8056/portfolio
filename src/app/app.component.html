@@ -1,0 +1,118 @@
+<div style="height: 100vh; background-color: rgba(162, 0, 255, 0);">
+    <div id="nav-bar" style="background-color: rgba(0, 26, 255, 0);">
+        <div id="nav-bar-content" style="background-color: rgba(207, 238, 210, 0);">
+            <button class="navbtn" (click)="jump(skills)">
+                <span>SKILLS</span>
+                <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+                </svg>
+            </button>
+            <button class="navbtn" (click)="jump(exp)">
+                <span>EXPERIENCE</span>
+                <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+                </svg>
+            </button>
+        <img #logo src="../assets/logo1.png" alt="">
+        <button class="navbtn" (click)="jump(blog)">
+            <span>BLOG</span>
+            <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+            </svg>
+          </button>
+          <button class="navbtn" (click)="jump(contact)">
+            <span>CONTACT</span>
+            <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+            </svg>
+          </button>
+        
+        </div>
+    </div>
+    <div class="container">
+        <div class="container-fluid" id="main-container" style="background-color: rgba(0, 255, 34, 0);">
+            <img src="../assets/ajay.png" id="profilePic"/>
+            <div id="messageContainer">
+                <div id="messageContainerHeading" class="font">Hi There!! I am <span id="name">Ajay Vigneshwar GB</span></div>
+                
+                <div id="messageContainerSub" class="font">Currently working as a software developer, I build and design full stack application from scratch</div>
+            </div> 
+        </div>
+        <div id="buttons" style="background-color: rgba(0, 255, 34, 0);">
+            <button>
+                <span>Get in touch</span>
+                <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+                </svg>
+              </button>
+        </div>
+        
+    </div>
+    
+</div>
+<div class="skills"  #skills style="height: 100vh; background-color: rgba(0, 0, 0, 0);">
+  <div class="content" style="background-color: rgba(0, 0, 0, 0.432);">
+    <div class="icons">
+      <img class="iconImg"src="../assets/angular.png"/>
+      <span class="iconText">ANGULAR</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/html.png"/>
+      <span class="iconText">HTML</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/sass.png"/>
+      <span class="iconText">CSS && SASS</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/azure.png"/>
+      <span class="iconText">AZURE</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/docker.png"/>
+      <span class="iconText">DOCKER</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/react.png"/>
+      <span class="iconText">REACT</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/cicd.png"/>
+      <span class="iconText">CI/CD PIPELINES</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/git.png"/>
+      <span class="iconText">GIT</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/azuredevops.png"/>
+      <span class="iconText">AZURE DEVOPS</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/js.png"/>
+      <span class="iconText">JAVASCRIPT</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/nosql.png"/>
+      <span class="iconText">NOSQL/SQL</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/node.png"/>
+      <span class="iconText">NODE JS</span>
+    </div>
+    <div class="icons">
+      <img class="iconImg"src="../assets/rpa.png"/>
+      <span class="iconText">RPA UI PATH && POWER AUTOMATE</span>
+    </div>
+
+  </div>
+</div>
+<div class="exp" #exp style="height: 100vh; background-color: red;">
+   Experience
+</div>
+<div class="blog" #blog style="height: 100vh; background-color: red;">
+    BLOG
+ </div>
+<div class="contact"  #contact style="height: 100vh; background-color: greenyellow;">
+    contact me
+</div>
